@@ -11,6 +11,10 @@ from dotenv import load_dotenv
 import asyncio
 
 # Fix for Streamlit's threaded environment — ensure an event loop always exists
+
+#G=AIzaSyDeVF-50JniO_EEMybrRRGZfRzpWVBtGVE
+#project-cb72c1cd-ce91-4940-b68
+#Gus-central1
 try:
     asyncio.get_event_loop()
 except RuntimeError:
